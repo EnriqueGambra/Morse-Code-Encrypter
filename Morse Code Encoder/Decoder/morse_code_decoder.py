@@ -61,8 +61,6 @@ english_translated_to_morse = dict()
 for key, value in morse_translated_to_english.items():
     english_translated_to_morse[value] = key
 
-print(english_translated_to_morse)
-
 
 def morse_code_to_english(incoming_morse_code):
     output = ""
